@@ -1,3 +1,5 @@
+//P.S. zadatak je dodan ranije, ali pod master, a ne u main. Možete pogledati.
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
