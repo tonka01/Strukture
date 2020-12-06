@@ -16,9 +16,7 @@ void ispis(red);
 int main() {
 
 	struct broj head;
-	//struct broj last;
 	head.next = NULL;
-	//last.next = NULL;
 	srand(time(NULL));
 	char c;
 
@@ -56,7 +54,7 @@ void ispis(red r) {
 	r = r->next;
 
 	if (r == NULL) {
-		printf("Prazan stog!\n");
+		printf("Prazan red!\n");
 	}
 
 	while (r != NULL) {
