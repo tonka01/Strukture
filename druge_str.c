@@ -21,7 +21,8 @@ void obrisi(Pozicija, char*);
 
 int main()
 {
-	struct Osoba* head=NULL;
+	struct Osoba head;
+	head.next=NULL;
 	Pozicija l, t;
 	char c;
 	char ime[100], prezime[100], traziPrezime[100], brisiPrezime[100];
