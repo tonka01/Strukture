@@ -29,9 +29,7 @@ int main() {
 }
 
 int citanje(pozicija p) {
-
-	pozicija q;
-	q = (pozicija)malloc(sizeof(struct stog));
+	
 	char* str=NULL;
 
 	str = (char*)malloc(1000*sizeof(char));
